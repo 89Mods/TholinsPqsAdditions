@@ -7,6 +7,12 @@ using UnityEngine;
 
 namespace TholinsPQSAdditions.VHM16
 {
+            public struct BilinearCoords
+        {
+            public Double x, y;
+            public Int32 xCeiling, xFloor, yCeiling, yFloor;
+            public Single u, v;
+        }
     /// <summary>
     /// A heightmap PQSMod that can parse encoded 16bpp textures
     /// </summary>
@@ -66,11 +72,6 @@ namespace TholinsPQSAdditions.VHM16
             return coords;
         }
 
-        public struct BilinearCoords
-        {
-            public Double x, y;
-            public Int32 xCeiling, xFloor, yCeiling, yFloor;
-            public Single u, v;
-        }
+
     }
 }

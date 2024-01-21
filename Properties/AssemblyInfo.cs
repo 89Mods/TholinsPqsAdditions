@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("AvaliSpaceProgram")]
-[assembly: AssemblyDescription("Plugin to add a few Avali as playable characters into the game.")]
+[assembly: AssemblyTitle("APP - Custom PQS Nodes")]
+[assembly: AssemblyDescription("Custom PQS Nodes for Avalon Planet Pack")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("TLTP")]
-[assembly: AssemblyProduct("AvaliSpaceProgram")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("Tholin")]
+[assembly: AssemblyProduct("APP - Custom PQS Nodes")]
+[assembly: AssemblyCopyright("Copyright ©  2024")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
