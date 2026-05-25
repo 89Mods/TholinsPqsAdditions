@@ -50,16 +50,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>D:\KSP_Saves\WWPJ\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/KSP_Data/Managed/Assembly-CSharp.dll</HintPath>
     </Reference>
     <Reference Include="Assembly-CSharp-firstpass">
-      <HintPath>D:\KSP_Saves\WWPJ\KSP_x64_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/KSP_Data/Managed/Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
     <Reference Include="Kopernicus">
-      <HintPath>D:\KSP_Saves\WWPJ\GameData\Kopernicus\Plugins\Kopernicus.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/GameData/Kopernicus/Plugins/Kopernicus.dll</HintPath>
     </Reference>
     <Reference Include="Kopernicus.Parser">
-      <HintPath>D:\KSP_Saves\WWPJ\GameData\Kopernicus\Plugins\Kopernicus.Parser.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/GameData/Kopernicus/Plugins/Kopernicus.Parser.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -70,16 +70,16 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
     <Reference Include="UnityEngine">
-      <HintPath>D:\KSP_Saves\WWPJ\KSP_x64_Data\Managed\UnityEngine.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/KSP_Data/Managed/UnityEngine.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AnimationModule">
-      <HintPath>D:\KSP_Saves\WWPJ\KSP_x64_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/KSP_Data/Managed/UnityEngine.AnimationModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.CoreModule">
-      <HintPath>D:\KSP_Saves\WWPJ\KSP_x64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/KSP_Data/Managed/UnityEngine.CoreModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:\KSP_Saves\WWPJ\KSP_x64_Data\Managed\UnityEngine.UI.dll</HintPath>
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/KSP_Data/Managed/UnityEngine.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
