@@ -17,7 +17,7 @@ namespace TholinsPQSAdditions.VHM16
         public static float SingleSample(Int32 x, Int32 y, MapSO heightMap, bool bits24)
         {
             // Get the Color, not the Float-Value from the Map
-            Color32 c = heightMap.GetPixelColor32(x, y);
+            Color32 c = Misc.kopernicus_changes_workaround(x, y, heightMap);
 
             // Get the height data from the terrain
             float height = 0;

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
+using Kopernicus.Components;
 
 namespace TholinsPQSAdditions.VHM16
 {
@@ -19,11 +20,11 @@ namespace TholinsPQSAdditions.VHM16
             // Apply it
             data.vertHeight += heightMapOffset + heightMapDeformity * SampleHeightmap16(data.u, data.v, heightMap);
         }
-
+        
         private float SingleSample(Int32 x, Int32 y)
         {
-            int a = heightMap.GetPixelColor32(x, y).r;
-            a |= heightMap2.GetPixelColor32(x, y).r << 8;
+            int a = Misc.kopernicus_changes_workaround(x, y, heightMap).r;
+            a |= Misc.kopernicus_changes_workaround(x, y, heightMap2).r << 8;
             return (float)a / 65535.0f;
         }
 

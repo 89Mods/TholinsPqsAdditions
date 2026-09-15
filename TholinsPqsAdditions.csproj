@@ -61,6 +61,9 @@
     <Reference Include="Kopernicus.Parser">
       <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/GameData/Kopernicus/Plugins/Kopernicus.Parser.dll</HintPath>
     </Reference>
+    <Reference Include="KSPTextureLoader">
+      <HintPath>/run/media/tholin/4500c215-1fa4-44ae-b5e5-67d48bd832bc/general/KSP_Saves/Avalon_EoE/GameData/KSPTextureLoader/Plugins/KSPTextureLoader.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -95,6 +98,7 @@
     <Compile Include="VHM16\VHM16.cs" />
     <Compile Include="VHM16\VHM16D.cs" />
     <Compile Include="VHM16\VHM16MitchellNetravali.cs" />
+    <Compile Include="VHM16\Misc.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
